@@ -1,0 +1,16 @@
+.display {
+    margin: auto; /* Center horizontally and vertically */
+    width: 175px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    box-shadow: inset;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f0f0f0; /* Add background color */
+}
+
+.display::placeholder {
+    font-size: 20px; /* Set smaller font size for placeholder text */
+    color:rgb(84, 11, 28);
+}
